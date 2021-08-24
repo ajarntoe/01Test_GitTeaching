@@ -16,14 +16,14 @@ public class Car extends Vehicle {
 	}
 
 
-//	public void setBrakeScale(int brakeScale) {
-//		if(brakeScale >5) {
-//			brakeScale =5;
-//		}else if(brakeScale <0) {
-//			brakeScale =0;
-//		}
-//		this.brakeScale = brakeScale;
-//	}
+	public void setBrakeScale(int brakeScale) {
+		if(brakeScale >5) {
+			brakeScale =5;
+		}else if(brakeScale <0) {
+			brakeScale =0;
+		}
+		this.brakeScale = brakeScale;
+	}
 	
 	
 	
