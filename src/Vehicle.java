@@ -1,4 +1,3 @@
-
 public class Vehicle {
 	int speed;
 	int acc;
@@ -14,7 +13,7 @@ public class Vehicle {
 	}
 
 	public void setSpeed(int speed) {
-		this.speed = speed;
+		this.speed = Math.max(0,speed);
 	}
 
 	public int getAcc() {
