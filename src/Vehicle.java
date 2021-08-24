@@ -3,9 +3,14 @@ public class Vehicle {
 	int acc;
 
 	public Vehicle(int speed, int acc) {
-		super();
+		System.out.println("Vehicle constructor starts" );
 		this.speed = speed;
 		this.acc = acc;
+		System.out.println("Vehicle constructor ends" );
+	}
+	
+	public Vehicle() {
+		this(1,1);
 	}
 
 	public int getSpeed() {
