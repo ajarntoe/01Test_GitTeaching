@@ -21,7 +21,7 @@ public class Vehicle {
 	}
 
 	public void setAcc(int acc) {
-		this.acc = acc;
+		this.acc = Math.max(0, acc);
 	}
 	
 	
